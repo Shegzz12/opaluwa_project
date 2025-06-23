@@ -23,7 +23,7 @@ def receive_data():
 @app.route('/data_to_app', methods=['GET'])
 def predict_user_input():
     try:
-        # global heart_rate, blood_oxygen, temperature
+        global heart_rate, blood_oxygen, temperature
         # Use the received values or default values if not received
         # input1 = val1
         # input2 = val2
