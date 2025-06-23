@@ -33,8 +33,8 @@ def predict_user_input():
         # result = util.predict_user_input(input1, input2, input3)
         # Construct the response
         response = jsonify({
-            'heart_rate': heart_rate
-            'blood_oxygen': blood_oxygen
+            'heart_rate': heart_rate,
+            'blood_oxygen': blood_oxygen,
             'temperature': temperature
         })
 
