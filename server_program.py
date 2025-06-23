@@ -35,7 +35,7 @@ def predict_user_input():
         response = jsonify({
             'heart_rate': heart_rate
             'blood_oxygen': blood_oxygen
-            'temperatue': temperature
+            'temperature': temperature
         })
 
         return response
