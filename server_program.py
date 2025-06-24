@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 # Initialize values to be used if no data is received
 heart_rate = 0
 blood_oxygen = 0
