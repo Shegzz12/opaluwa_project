@@ -4,9 +4,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 # Initialize values to be used if no data is received
-heart_rate = 0
-blood_oxygen = 0
-temperature = 0
+heart_rate = 2
+blood_oxygen = 4
+temperature = 6
 
 @app.route('/input_data', methods=['POST'])
 def receive_data():
